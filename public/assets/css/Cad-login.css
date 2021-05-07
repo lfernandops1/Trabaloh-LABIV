@@ -1,0 +1,42 @@
+.button {
+    margin: auto;
+    margin-top: 9px;
+    background-color: #739ad6;
+    border-radius: 21px;
+    border: solid 2px #445c80;
+    color: #2f4a77;
+    padding: 4px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 80%;
+    cursor: pointer;
+}
+
+#tamanho-imagem {
+    width: 30%;
+}
+
+::placeholder {
+    color: rgba(5, 5, 5, 0.493);
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: rgba(5, 5, 5, 0.493);
+}
+
+::-ms-input-placeholder {
+    color: rgba(5, 5, 5, 0.493);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #15346f;
+    color: white;
+    border-top: solid 2px #010f28a6;
+    height: 35px;
+}
